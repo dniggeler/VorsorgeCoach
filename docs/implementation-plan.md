@@ -33,17 +33,17 @@ Ein KI-gestützter Vorsorge-Coach für das Schweizer Vorsorgesystem, der als Git
 ## Workplan
 
 ### Phase 1: Projekt-Setup und Grundstruktur
-- [ ] Repository-Struktur erstellen
-  - [ ] `/skills` - Verzeichnis für Copilot Skills
-  - [ ] `/mcp-servers` - Referenzen zu bestehenden MCP-Servern
-  - [ ] `/docs` - Dokumentation
-  - [ ] `/tests` - Test-Dateien
-  - [ ] `/examples` - Beispiel-Vorsorgepläne und -ausweise
-- [ ] Grundlegende Konfigurationsdateien erstellen
-  - [ ] `package.json` / `pyproject.toml` (je nach Hauptsprache)
-  - [ ] `.copilot/` Konfiguration für GitHub Copilot Integration
-  - [ ] `README.md` mit Projektbeschreibung
-  - [ ] `.gitignore`
+- [x] Repository-Struktur erstellen
+  - [x] `/skills` - Verzeichnis für Copilot Skills
+  - [x] `/mcp-servers` - Referenzen zu bestehenden MCP-Servern
+  - [x] `/docs` - Dokumentation
+  - [x] `/tests` - Test-Dateien
+  - [x] `/examples` - Beispiel-Vorsorgepläne und -ausweise
+- [x] Grundlegende Konfigurationsdateien erstellen
+  - [x] `package.json` / `pyproject.toml` (je nach Hauptsprache)
+  - [x] `.copilot/` Konfiguration für GitHub Copilot Integration
+  - [x] `README.md` mit Projektbeschreibung
+  - [x] `.gitignore`
 
 ### Phase 2: MCP-Server Integration
 - [ ] MCP-Server Konfiguration
