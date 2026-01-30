@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "description": "KI-gestützter Vorsorge-Coach für das Schweizer Vorsorgesystem",
+  "skills": [],
+  "tools": [],
+  "configuration": {
+    "language": "de-CH",
+    "domain": "swiss-pension-advisory"
+  }
+}

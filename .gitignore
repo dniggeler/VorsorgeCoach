@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+.tox/
+
+# Build outputs
+*.dll
+*.exe
+*.pdb
+bin/
+obj/
+*.user
+*.suo
+
+# Session state
+.copilot/session-state/
+
+# Sensitive data (examples should be anonymized)
+examples/real-data/
+*.pdf
+!examples/*.pdf
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.cache/
