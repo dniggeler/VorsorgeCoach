@@ -6,5 +6,15 @@
   "configuration": {
     "language": "de-CH",
     "domain": "swiss-pension-advisory"
+  },
+  "mcpServers": {
+    "bvg-calculator": {
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "C:\\workspace\\repos\\PensionTools\\src\\BvgCalculator.McpServer\\BvgCalculator.McpServer.csproj"
+      ]
+    }
   }
 }
