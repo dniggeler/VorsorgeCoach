@@ -8,13 +8,10 @@
     "domain": "swiss-pension-advisory"
   },
   "mcpServers": {
-    "bvg-calculator": {
-      "command": "dotnet",
-      "args": [
-        "run",
-        "--project",
-        "C:\\workspace\\repos\\PensionTools\\src\\BvgCalculator.McpServer\\BvgCalculator.McpServer.csproj"
-      ]
+    "bvg-rechner": {
+      "command": "C:\\temp\\publish\\PensionTools\\BvgRechner\\BvgCalculator.McpServer.exe",
+      "tools": [],
+      "args": []
     }
   }
 }

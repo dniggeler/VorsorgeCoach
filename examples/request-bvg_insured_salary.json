@@ -1,0 +1,17 @@
+{
+  "method": "tools/call",
+  "params": {
+    "name": "bvg_insured_salary",
+    "arguments": {
+      "calculationYear": 2025,
+      "person": {
+        "dateOfBirth": "1969-03-17",
+        "gender": "female",
+        "reportedSalary": 78000
+      }
+    },
+    "_meta": {
+      "progressToken": 0
+    }
+  }
+}

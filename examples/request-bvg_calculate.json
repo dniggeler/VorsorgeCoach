@@ -1,0 +1,18 @@
+{
+  "method": "tools/call",
+  "params": {
+    "name": "bvg_calculate",
+    "arguments": {
+      "calculationYear": 2025,
+      "retirementCapitalEndOfYear": 191000,
+      "person": {
+        "dateOfBirth": "1969-03-17",
+        "gender": "female",
+        "reportedSalary": 78000
+      }
+    },
+    "_meta": {
+      "progressToken": 1
+    }
+  }
+}
