@@ -1,5 +1,5 @@
 
-# Vorsorge Information gemäss Vorsorgeausweis am 31.12.2025
+# Aktueller Stand der Finanzen
 
 ## Pensionkasse (2.Säule)
 Altersguthaben BVG: 191000
