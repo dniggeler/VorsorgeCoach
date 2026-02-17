@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bvg-rechner": {
+      "type": "stdio",
+      "command": "C:/temp/publish/PensionTools/BvgRechner/BvgCalculator.McpServer.exe",
+      "tools": [
+        "*"
+      ],
+      "args": []
+    }
+  }
+}

@@ -8,7 +8,7 @@ except Exception:
 reader = PdfReader(r"docs\va-2025.pdf")
 parts = []
 for i, page in enumerate(reader.pages):
-    txt = page.extract_text()
+    txt = page.extract_text(extraction_mode="layout")
     parts.append(f"--- Page {i+1} ---\n")
     if txt:
         parts.append(txt)
