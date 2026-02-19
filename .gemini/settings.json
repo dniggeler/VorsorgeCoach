@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bvg-rechner": {
+      "command": "C:/temp/publish/PensionTools/BvgRechner/BvgCalculator.McpServer.exe",
+      "args": []
+    },
+	  "swisstax-rechner": {
+      "command": "C:\\temp\\publish\\PensionTools\\SwissTaxCalculator\\SwissTaxCalculator.McpServer.exe",
+      "args": []
+    }
+  }
+}
