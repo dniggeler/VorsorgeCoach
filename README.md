@@ -16,16 +16,45 @@ VorsorgeCoach ist ein intelligenter Assistent für die Schweizer Altersvorsorge,
 ### Berechnungen
 - AHV- und BVG-Rentenberechnungen
 - Einkaufspotenzial in die Pensionskasse
+- **PK-Einkauf Steueroptimierung** (inkl. Kapitalbezugssteuer-Berechnung)
 - WEF-Bezüge (Wohneigentumsförderung)
 - Vorsorgeausgleich bei Scheidung
 - Steueroptimierung (Einkommens-, Vermögens-, Kapitalbezugssteuer)
 
 ### Beratung
 - Auswirkungen von Lohnänderungen auf die Vorsorge
-- Optimale Einkaufsstrategien
+- Optimale Einkaufsstrategien (inkl. Verteilung auf mehrere Jahre)
 - Vergleich Kapitalbezug vs. Rente
 - Gestaffelte 3a-Bezugsstrategien
 - Langfristige Finanzplanung
+
+## Skills
+
+VorsorgeCoach nutzt spezialisierte **Copilot Skills** für verschiedene Vorsorge-Szenarien:
+
+### Verfügbare Skills
+
+#### 🎯 Einkauf (PK-Einkauf Steuerrechner)
+Berechnet Steuerersparnis und Netto-Vorteil bei freiwilligen PK-Einkäufen.
+
+**Capabilities:**
+- Steuerersparnis bei Einkäufen (Bund, Kanton, Gemeinde)
+- Kapitalbezugssteuer-Berechnung beim späteren Bezug
+- Netto-Vorteil: Steuerersparnis minus Kapitalbezugssteuer
+- Verteilung auf mehrere Jahre (1-5 Jahre)
+- Automatische 3-Jahres-Regel-Prüfung
+
+**Beispiele:**
+```
+"Was spare ich netto wenn ich CHF 50'000 einkaufe und 2029 als Kapital beziehe?"
+"Lohnt sich CHF 80'000 verteilt auf 3 Jahre vs. alles auf einmal?"
+```
+
+Siehe [skills/Einkauf/skill.md](skills/Einkauf/skill.md) für Details.
+
+---
+
+Weitere Skills in Planung: AHV-Berechnungen, 3a-Optimierung, WEF-Bezüge
 
 ## Technologie
 
@@ -39,7 +68,12 @@ VorsorgeCoach ist ein intelligenter Assistent für die Schweizer Altersvorsorge,
 ```
 VorsorgeCoach/
 ├── .copilot/          # GitHub Copilot Agent Konfiguration
-├── skills/            # Copilot Skills (Python/TypeScript)
+│   ├── skills/        # Aktivierte Copilot Skills
+│   ├── mcp.json       # MCP-Server Konfiguration
+│   └── skills.json    # Skills Registry
+├── skills/            # Skill-Definitionen
+│   ├── Einkauf/       # PK-Einkauf Steuerrechner
+│   └── README.md      # Skills Übersicht
 ├── mcp-servers/       # MCP-Server Referenzen und Wrapper (C#)
 ├── docs/              # Dokumentation
 ├── tests/             # Tests

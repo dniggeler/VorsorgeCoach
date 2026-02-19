@@ -1,0 +1,19 @@
+{
+  "skills": [
+    {
+      "name": "Einkauf",
+      "displayName": "PK-Einkauf Steuerrechner",
+      "version": "1.2",
+      "path": "skills/Einkauf/skill.md",
+      "description": "Berechnet Steuerersparnis und Netto-Vorteil bei freiwilligen PK-Einkäufen unter Berücksichtigung der Kapitalbezugssteuer",
+      "tags": ["steuer", "pensionskasse", "einkauf", "bvg", "2.säule"],
+      "mcpServers": ["swisstax-rechner"],
+      "enabled": true
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-02-19",
+    "project": "VorsorgeCoach"
+  }
+}
