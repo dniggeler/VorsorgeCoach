@@ -14,7 +14,7 @@ MCP server integrations
    - SwissTax-Rechner: use `calculate_wealth_and_income_tax` for regular income/wealth tax simulations, `calculate_capital_benefit_tax` for lump-sum pension withdrawal tax (Kapitalauszahlungssteuer), and `search_municipalities` to resolve a municipality name/PLZ to a taxLocationId before any tax calculation.
    - Investment-Rechner: use `financial_projection` tool for projecting 3rd pillar (3a) and private savings growth. It supports compound interest, annual contributions, and retirement date calculations.
    - Always prefer MCP calculation tools over manual formulas for regulated pension, tax, and investment computations.
-   - Tool call sequence for tax calculations: (1) call `search_municipalities` to get `taxLocationId` (try with PLZ first, then name), (2) call the relevant tax tool with that ID.
+   - Tool call sequence for tax calculations: (1) call `search_municipalities` to get `taxLocationId` (use Swiss canton's short name and city name as input), (2) call the relevant tax tool with that ID.
    - When comparing pension vs lump-sum, always run both `calculate_wealth_and_income_tax` (ongoing pension scenario) and `calculate_capital_benefit_tax` (lump-sum scenario) and present both tax burdens side-by-side.
    
 Required input model (canonical JSON/YAML)
