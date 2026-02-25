@@ -9,5 +9,6 @@ Zivilstand: married
 Aktueller Lohn: 196000 CHF
 
 # Wohnsitz
-Gemeinde: Zürich
+Kanton: ZH
+Gemeinde: Zurich
 Plz: 8047
