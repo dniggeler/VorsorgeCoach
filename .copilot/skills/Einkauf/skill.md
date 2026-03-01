@@ -1,9 +1,9 @@
-# Pensionskassen-Einkauf & Steueroptimierung CH
-{: .skill-header}
+---
+name: pk-einkauf
+description: Berechnet Steuerersparnis und Netto-Vorteil bei freiwilligen PK-Einkäufen (2. Säule) in der Schweiz. Verwende diesen Skill wenn nach Steuerersparnis, Einkauf in Pensionskasse, Kapitalbezugssteuer oder Netto-Vorteil eines PK-Einkaufs gefragt wird.
+---
 
-**Skill Name:** PK-Einkauf  
-**Version:** 1.0  
-**Beschreibung:** Berechnet die Steuerersparnis bei freiwilligen Einkäufen in die Pensionskasse (2. Säule) in der Schweiz und die spätere Kapitalbezugssteuer. Ermittelt den Netto-Vorteil unter Berücksichtigung der gesamten Steuerfolgen und liefert strukturierte JSON-Outputs für weitere Verarbeitung.
+# Pensionskassen-Einkauf & Steueroptimierung CH
 
 ## Fähigkeiten (Capabilities)
 

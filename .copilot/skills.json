@@ -1,6 +1,16 @@
 {
   "skills": [
     {
+      "name": "VorsorgeausweisParsing",
+      "displayName": "Vorsorgeausweis Parsing (Anthropic Document Skills)",
+      "version": "1.0",
+      "path": "skills/VorsorgeausweisParsing/skill.md",
+      "description": "Extrahiert strukturierte Pensionskassen-Daten aus Vorsorgeausweis-PDFs mittels Anthropic Document API (nativer PDF-Upload). Liefert validiertes JSON im kanonischen Client-Datenmodell.",
+      "tags": ["dokument", "pdf", "vorsorgeausweis", "pensionskasse", "extraktion", "anthropic"],
+      "mcpServers": [],
+      "enabled": true
+    },
+    {
       "name": "Einkauf",
       "displayName": "PK-Einkauf Steuerrechner",
       "version": "1.2",
@@ -12,8 +22,8 @@
     }
   ],
   "metadata": {
-    "version": "1.0",
-    "lastUpdated": "2026-02-19",
+    "version": "1.1",
+    "lastUpdated": "2026-03-01",
     "project": "VorsorgeCoach"
   }
 }
