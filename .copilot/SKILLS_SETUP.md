@@ -6,7 +6,24 @@ All skills from the `skills/` directory are now available in the `.copilot/skill
 
 ## Available Skills
 
-### 1. Einkauf (PK-Einkauf Steuerrechner) v1.2
+### 1. VorsorgeausweisParsing (Vorsorgeausweis Parsing) v1.0
+**Status:** ✓ Active  
+**Location:** `.copilot/skills/VorsorgeausweisParsing/skill.md`
+
+Extrahiert strukturierte Pensionskassen-Daten aus Vorsorgeausweis-PDFs mittels **Anthropic Document Skills** (nativer PDF-Upload via `document`-Content-Type). Liefert validiertes JSON im kanonischen Client-Datenmodell.
+
+**Key Features:**
+- Direktes PDF-Parsing ohne manuelle Textextraktion
+- Unterstützt Base64-, URL- und Anthropic Files API-Quellen
+- Citations-Unterstützung für Quellenreferenzen pro Feld
+- Validierung & Plausibilitätsprüfung der extrahierten Felder
+- JSON-Output im kanonischen Datenmodell für alle anderen Skills
+
+**Anthropic Document API:**
+- `document`-Content-Type mit `base64`, `url` oder `file`-Quelle
+- Modell: `claude-opus-4-5` (bevorzugt), Fallback `claude-sonnet-4-5`
+
+### 2. Einkauf (PK-Einkauf Steuerrechner) v1.2
 **Status:** ✓ Active  
 **Location:** `.copilot/skills/Einkauf/skill.md`
 
@@ -28,6 +45,8 @@ Berechnet Steuerersparnis und Netto-Vorteil bei freiwilligen PK-Einkäufen unter
 ```
 .copilot/
 ├── skills/              # Active skills available to Copilot
+│   ├── VorsorgeausweisParsing/
+│   │   └── skill.md    # Anthropic Document Skills – PDF-Extraktion
 │   ├── Einkauf/
 │   │   └── skill.md
 │   └── README.md        # Skills documentation
