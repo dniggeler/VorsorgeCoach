@@ -5,6 +5,7 @@ Vorname: Dieter
 Geburtsdatum: 1969-03-17
 Geschlecht: male
 Zivilstand: married
+Konfession: keine
 Sprache: Deutsch
 
 # Wohnsitz
