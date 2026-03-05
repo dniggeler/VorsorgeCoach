@@ -1,11 +1,16 @@
-# Einmal Investition
-
-# Jährliche wiederkehrende Ausgaben
-
-## Konto "Frankly" 3a
+# Konto "Frankly" 3a
 Betrag: maximal möglicher Betrag
-Investitionsende: bei Pensionierung
+Quelle: Vermögen
+Häufigkeit: jährlich
+Ende: bei Pensionierung
 
-## Portfolio "True Wealth"
+# Portfolio "True Wealth"
 Betrag: 5000
-Investitionsende: 2030
+Quelle: Vermögen
+Häufigkeit: jährlich
+Ende: 2030
+
+# Budget (Ausgaben für tägliche Leben)
+Betrag: 80000
+Quelle: Vermögen
+Häufigkeit: jährlich

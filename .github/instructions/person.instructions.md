@@ -13,7 +13,12 @@ Kanton: ZH
 Gemeinde: Zurich
 Plz: 8047
 
-# Lohn
+# Arbeit
+Arbeitgeber: PayrollPlus AG
+Arbeitsverhältnis: angestellt
 Aktueller Lohn: 196000 CHF
+
+# Steuer
+TaxLocationId: 800000000
 Steuerbares Einkommen: 162000 (Staatssteuer)
 Steuerbares Einkommen: 165000 (Bundessteuer)

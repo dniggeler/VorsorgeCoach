@@ -15,5 +15,8 @@ Plz: 8047
 
 # Lohn
 Aktueller Lohn: 34640 CHF
+
+# Steuerdaten
+TaxLocationId: 800000000
 Steuerbares Einkommen: 31967 (Staatssteuer)
 Steuerbares Einkommen: 31967 (Bundessteuer)
