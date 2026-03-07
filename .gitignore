@@ -1,3 +1,6 @@
+# financial instruction files (PII — keep local only)
+.github/instructions/assets/**/*.instructions.md
+
 # Dependencies
 node_modules/
 __pycache__/
